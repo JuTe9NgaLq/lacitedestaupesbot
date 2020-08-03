@@ -10,14 +10,3 @@ bot.on('message', message => {
 	}}
 		
 });
-				
-bot.on('message', message => {
-	
-
-	if (message.content != '<@228755657766076416> :nerd: Le poly :nerd: <@211918230376153090>'){
-		msg = message.content.toLowerCase();
-    if (msg.includes(' poly ')){
-    message.channel.sendMessage('<@228755657766076416> :nerd: Le poly :nerd: <@211918230376153090>'');
-	}}
-		
-});
